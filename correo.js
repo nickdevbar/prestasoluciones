@@ -95,7 +95,7 @@ async function enviarNotificacionAdmin(datos, base) {
         },
         to: [
           {
-            email: "nickdevbarrientos@gmail.com",
+            email: "r.calderon.prestasoluciones@gmail.com",
             name: "Administrador Web",
           },
         ],
@@ -230,7 +230,7 @@ async function enviarConfirmacionUsuario(datos) {
       body: JSON.stringify({
         sender: {
           name: "PrestaSoluciones",
-          email: "noreply@prestasoluciones.com",
+          email: "noreply@prestasolucionescol.com",
         },
         to: [
           {
